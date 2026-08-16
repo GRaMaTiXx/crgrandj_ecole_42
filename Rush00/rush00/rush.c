@@ -24,11 +24,11 @@ void    rush( int x, int y)
 
 void    ft_prio (int h, int l, int x, int y)
 {
-    if ((h == 1 && l == 0) || (h == y && l == x-1))
+    if ((h == 1 && l == 0) || (h == y && l == x - 1))
         ft_putchar('o');
-    else if ((h == 1 && l == x-1) || (h == y && l == 0))
+    else if ((h == 1 && l == x - 1) || (h == y && l == 0))
         ft_putchar('o');
-    else if((h > 1 && l == 0) || (h > 1 && l == x-1))
+    else if((h > 1 && l == 0) || (h > 1 && l == x - 1))
         ft_putchar('|');
     else if ((h == 1 && l < x) || (h == y && l < x))
         ft_putchar('-');
