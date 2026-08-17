@@ -6,10 +6,11 @@
 /*   By: crgrandj <crgrandj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/14 11:48:18 by crgrandj          #+#    #+#             */
-/*   Updated: 2026/08/15 10:56:27 by crgrandj         ###   ########.fr       */
+/*   Updated: 2026/08/17 18:33:42 by crgrandj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// char	*ft_strcpy(char *dest, char *src);
 // #include <stdio.h>
 // int main()
 // {
@@ -41,7 +42,7 @@
 //         i++;
 //     }
 //     printf("\n i = %d \n", i);
-//     scanf("%c", a);
+//     scanf("%c", &a);
 //     return 0;
 // }
 

@@ -6,10 +6,9 @@
 /*   By: crgrandj <crgrandj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 16:06:42 by crgrandj          #+#    #+#             */
-/*   Updated: 2026/08/17 17:14:30 by crgrandj         ###   ########.fr       */
+/*   Updated: 2026/08/17 17:58:14 by crgrandj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 int	ft_str_is_lowercase(char *str)
 {
@@ -26,5 +25,4 @@ int	ft_str_is_lowercase(char *str)
 			is_lower = 0;
 	}
 	return (is_lower);
-
 }
