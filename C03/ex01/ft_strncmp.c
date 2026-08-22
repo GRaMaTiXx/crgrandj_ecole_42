@@ -6,7 +6,7 @@
 /*   By: crgrandj <crgrandj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/19 13:12:46 by crgrandj          #+#    #+#             */
-/*   Updated: 2026/08/20 21:01:27 by crgrandj         ###   ########.fr       */
+/*   Updated: 2026/08/21 13:35:40 by crgrandj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 		return (0);
 	return (s1[i] - s2[i]);
 }
+
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <string.h>

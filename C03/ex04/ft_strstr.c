@@ -6,7 +6,7 @@
 /*   By: crgrandj <crgrandj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 13:53:11 by crgrandj          #+#    #+#             */
-/*   Updated: 2026/08/20 21:01:48 by crgrandj         ###   ########.fr       */
+/*   Updated: 2026/08/21 13:57:54 by crgrandj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ char	*ft_strstr(char *str, char *to_find)
 	int	j;
 
 	i = 0;
+	if (to_find[0] == '\0')
+		return (str);
 	while (str[i] != '\0')
 	{
 		j = 0;
@@ -32,8 +34,8 @@ char	*ft_strstr(char *str, char *to_find)
 // #include	<stdio.h>
 // int	main()
 // {
-// 	char	str[] = "tu es pas loin il est banana pas lonng ou alors si";
-// 	char	to_find[] = "banana";
+// 	char	str[] = "Create a function that displays the";
+// 	char	to_find[] = "that";
 // 		printf("%s", ft_strstr(str, to_find));
 // 		printf("\n");
 // }

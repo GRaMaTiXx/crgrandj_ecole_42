@@ -6,7 +6,7 @@
 /*   By: crgrandj <crgrandj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/19 16:52:39 by crgrandj          #+#    #+#             */
-/*   Updated: 2026/08/20 13:50:30 by crgrandj         ###   ########.fr       */
+/*   Updated: 2026/08/21 12:13:00 by crgrandj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	dest[iter1] = '\0';
 	return (dest);
 }
+
 // #include <string.h>
 // #include <stdio.h>
 // int	main()
